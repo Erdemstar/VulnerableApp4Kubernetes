@@ -5,7 +5,7 @@ Since there is a solution(.sln) file in the application, you can run it directly
 
 **Dockerhub**
 ```
-docker push erdemstar/vulnerableapp4kubernetes:1.0.0
+docker pull erdemstar/vulnerableapp4kubernetes:1.0.0
 ```
 
 ## Vulnerabilities
