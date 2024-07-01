@@ -50,7 +50,7 @@ namespace VulnerableApp4Kubernetes.Helper
         {
             try
             {
-                FileStream fileStream = new FileStream(filename, FileMode.Open);
+                FileStream fileStream = new FileStream(filename, FileMode.Open, FileAccess.Read);
                 using (StreamReader reader = new StreamReader(fileStream))
                 {
                     string line = reader.ReadToEnd();
